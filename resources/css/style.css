@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    text-align: center;
+}
+
+h1, h2, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 42px;
+
+}
+
+h4 {
+    font-size: 16px;
+    color: aquamarine;
+}
+
+p {
+    color: gray;
+    font-size: 21px;
+}
+
+.tent-outside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tent-outside img {
+    margin-top: 25px;
+}
+
+footer {
+    color: gray;
+    text-align: right;
+}
